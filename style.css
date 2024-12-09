@@ -99,7 +99,7 @@
 		width: 100%;
 	}
 	/* Estilos para dispositivos móviles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     nav {
         display: flex;
         position: fixed;
@@ -379,6 +379,7 @@
 		background-color: #fff;
 		border-radius: 8px;
 		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+		overflow: hidden;
 	  }
 	.bullet-list {
 		
@@ -419,19 +420,17 @@
 		color: #555;
 	  }
 	  
-	  /* Encabezado opcional para la sección */
-	  .bullet-section h2 {
-		font-size: 28px;
-		text-align: center;
-		color: #222;
-		margin-bottom: 30px;
-	  }
+	  
 	  
 	  /* Responsividad para pantallas más pequeñas */
-	  @media (max-width: 768px) {
+	  @media (max-width: 800px) {
 		.bullet-list {
 		  grid-template-columns: 1fr;
 		}
+		.services-section {
+			padding: 30px 15px; /* Reduce el padding lateral para pantallas pequeñas */
+		  }
+		
 	  }
 
 	.map{
