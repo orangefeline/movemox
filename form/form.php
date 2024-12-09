@@ -20,7 +20,7 @@ if(isset($_POST['email']) && !empty($_POST['email'])){
 	    }
 
 	
-		$to = "test@websitetemplates.site";
+		$to = "endrina410@gmail.com";
 		$mail_subject = "Contact Form Message Sent From $name | Message ID ".$timestamp_capture;
 		$mail_message = "
 		<br>
